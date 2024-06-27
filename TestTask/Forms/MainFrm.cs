@@ -192,10 +192,6 @@ namespace TestTask.Forms
 
                 int.TryParse(teMinutes?.Text, out int minutes);
 
-                //var timer = new Timer();
-                //timer.Interval = (int)TimeSpan.FromMinutes(minutes).TotalMilliseconds;
-                //timer.Enabled = true;
-                //timer.
                 System.Windows.Forms.Timer timer = new System.Windows.Forms.Timer();
                 timer.Interval = (int)TimeSpan.FromMinutes(minutes).TotalMilliseconds;
                 timer.Enabled = true;
